@@ -2,64 +2,65 @@ import fs from "fs";
 import path from "path";
 import { Product } from "@/types/product";
 
+function toNullableString(value: unknown): string | null {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  return String(value);
+}
+
+function toNullablePrice(value: unknown): string | number | null {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  if (typeof value === "number" || typeof value === "string") {
+    return value;
+  }
+
+  return null;
+}
+
 export function getProducts(): Product[] {
   const filePath = path.join(process.cwd(), "public", "data", "product.json");
 
   if (!fs.existsSync(filePath)) {
-    throw new Error(`Product JSON file not found: ${filePath}`);
+    return [];
   }
 
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
-  if (!fileContents.trim()) {
+  const data: unknown = JSON.parse(fileContents);
+
+  if (!Array.isArray(data)) {
     return [];
   }
 
-  try {
-    const data: unknown = JSON.parse(fileContents);
+  return data.map(
+    (item: Record<string, unknown>): Product => ({
+      productName: toNullableString(item.productName),
+      brandName: toNullableString(item.brandName),
+      SKU: toNullableString(item.SKU),
+      MPN: toNullableString(item.MPN),
+      ProductURL: toNullableString(item.ProductURL),
+      Title: toNullableString(item.Title),
+      Description: toNullableString(item.Description),
+      Features: toNullableString(item.Features),
+      ProductSpecifications: toNullableString(item.ProductSpecifications),
+      ImageURL: toNullableString(item.ImageURL),
 
-    if (!Array.isArray(data)) {
-      console.error("Invalid product JSON: Expected an array");
-      return [];
-    }
+      Price: toNullablePrice(item.Price),
+      OriginalPrice: toNullablePrice(item.OriginalPrice),
 
-    return data
-      .filter(
-        (item): item is Record<string, unknown> =>
-          item !== null && typeof item === "object" && !Array.isArray(item),
-      )
-      .map((item) => ({
-        productName:
-          typeof item.productName === "string" ? item.productName : null,
+      BrandLogo: toNullableString(item.BrandLogo),
+      Category: toNullableString(item.Category),
+      Currency: toNullableString(item.Currency),
+      SoldRecently: toNullableString(item.SoldRecently),
 
-        brandName: typeof item.brandName === "string" ? item.brandName : null,
-
-        SKU: typeof item.SKU === "string" ? item.SKU : null,
-
-        MPN: typeof item.MPN === "string" ? item.MPN : null,
-
-        ProductURL:
-          typeof item.ProductURL === "string" ? item.ProductURL : null,
-
-        Title: typeof item.Title === "string" ? item.Title : null,
-
-        Description:
-          typeof item.Description === "string" ? item.Description : null,
-
-        Features: typeof item.Features === "string" ? item.Features : null,
-
-        ProductSpecifications:
-          typeof item.ProductSpecifications === "string"
-            ? item.ProductSpecifications
-            : null,
-
-        ImageURL: typeof item.ImageURL === "string" ? item.ImageURL : null,
-
-        Price: item.Price ?? null,
-        OriginalPrice: item.OriginalPrice ?? null,
-      }));
-  } catch (error) {
-    console.error("Failed to parse product.json:", error);
-    throw new Error("Invalid product JSON file");
-  }
+      Variants: Array.isArray(item.Variants)
+        ? (item.Variants as Product["Variants"])
+        : null,
+    }),
+  );
 }

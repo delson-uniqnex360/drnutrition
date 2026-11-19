@@ -1,15 +1,15 @@
 export type Product = {
-  productName: string;
-  brandName: string;
-  SKU: string;
-  MPN: string;
-  ProductURL: string;
-  Title: string;
-  Description: string;
-  Features: string;
-  ProductSpecifications: string;
+  productName: string | null;
+  brandName: string | null;
+  SKU: string | null;
+  MPN: string | null;
+  ProductURL: string | null;
+  Title: string | null;
+  Description: string | null;
+  Features: string | null;
+  ProductSpecifications: string | null;
+  ImageURL: string | null;
 
-  ImageURL?: string | null;
   Price?: string | number | null;
   OriginalPrice?: string | number | null;
 
@@ -17,10 +17,16 @@ export type Product = {
   Category?: string | null;
   Currency?: string | null;
   SoldRecently?: string | null;
+
   Variants?:
     | {
         name?: string | null;
-        options?: { label?: string | null; image?: string | null }[] | null;
+        options?:
+          | {
+              label?: string | null;
+              image?: string | null;
+            }[]
+          | null;
       }[]
     | null;
 };

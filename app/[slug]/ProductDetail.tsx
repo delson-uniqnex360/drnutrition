@@ -177,8 +177,7 @@ function VariantTile({
 /* ------------------------------------------------------------------ */
 
 export default function ProductDetail({ product }: Props) {
-  const title =
-    getText(product.Title) || getText(product.productName) || "Product Details";
+  const title = getText(product.Title) || getText(product.productName) || "";
 
   const brand = getText(product.brandName);
   const brandLogo = getText(product.BrandLogo);

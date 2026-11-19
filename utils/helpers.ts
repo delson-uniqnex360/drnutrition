@@ -1,4 +1,6 @@
-export function generateSlug(value: string): string {
+export function generateSlug(value: string | null | undefined): string {
+  if (!value) return "";
+
   return value
     .toLowerCase()
     .trim()
