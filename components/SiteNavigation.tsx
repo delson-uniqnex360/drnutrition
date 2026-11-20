@@ -80,7 +80,7 @@ export default function SiteNavigation() {
                 height={100}
                 alt="Logo"
                 priority
-                className="h-auto w-[150px] object-contain"
+                className="w-32 h-auto"
               />
             </Link>
 

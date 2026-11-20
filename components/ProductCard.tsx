@@ -69,6 +69,7 @@ export default function ProductCard({ item }: { item: ProductCatalogItem }) {
             src={image}
             alt={product.images?.[0]?.alt || title}
             fill
+            priority
             sizes="220px"
             className="object-contain"
           />
