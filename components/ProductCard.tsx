@@ -19,7 +19,6 @@ function getProductSlug(url: string) {
 
 export default function ProductCard({ item }: { item: ProductCatalogItem }) {
   const product = item.product;
-
   const title = product.name;
   const href = `/${getProductSlug(item.ProductURL)}`;
 
@@ -34,8 +33,8 @@ export default function ProductCard({ item }: { item: ProductCatalogItem }) {
 
   const currency = product.currency || "AED";
   const rating = product.reviews?.average;
-  const image = product.images?.[0]?.url;
-  console.log("image", image, product);
+  const image = product.image;
+
 
   return (
     <article className="group relative flex h-full w-[220px] shrink-0 flex-col overflow-hidden rounded-md border border-gray-200 bg-white">

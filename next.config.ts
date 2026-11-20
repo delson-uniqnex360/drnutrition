@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "media.drnutrition.com",
         pathname: "/media/**",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: "/dgpvbqk9e/image/upload/**",
+      },
     ],
   },
   /* config options here */

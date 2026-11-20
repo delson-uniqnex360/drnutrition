@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 
 /* ------------------------------------------------------------------ */
 /* Types – this is the shape you pass to the component                 */
@@ -16,10 +16,17 @@ export interface ProductImage {
 
 export interface ProductVariantOption {
   id: string | number;
-  label: string; // "300 Gm", "Unflavored"
-  image?: string; // small thumb shown inside the chip
-  href?: string; // page to navigate to when selected
+  label: string;
+  image?: string;
+  href?: string;
   disabled?: boolean;
+  // per-variant overrides
+  name?: string;
+  price?: number;
+  originalPrice?: number;
+  discountPercentage?: number;
+  offerLabel?: string;
+  images?: ProductImage[];
 }
 
 export interface ProductVariantGroup {
@@ -74,6 +81,7 @@ export interface ProductDetailData {
   brand?: { name: string; href: string; image?: string };
   breadcrumbs: { name: string; href: string }[];
   tags?: string[]; // grey pills under the title
+  image?: string;
   images: ProductImage[];
   express?: boolean;
   variants?: ProductVariantGroup[];
@@ -358,6 +366,9 @@ function Gallery({
   onToggleWishlist?: (id: string | number, active: boolean) => void;
 }) {
   const [index, setIndex] = useState(0);
+
+  useEffect(() => setIndex(0), [images]);
+
   const [wish, setWish] = useState(false);
   const startX = useRef<number | null>(null);
   const [zoom, setZoom] = useState<{ x: number; y: number } | null>(null);
@@ -962,7 +973,37 @@ export default function ProductDetail({
   onFulfilmentChange,
 }: ProductDetailProps) {
   const L = { ...defaultLabels, ...labels };
-  const p = product;
+  const initialSelection = () =>
+    Object.fromEntries(
+      (product.variants ?? []).map((g) => [g.name, g.selectedId]),
+    ) as Record<string, string | number>;
+
+  const [selected, setSelected] = useState(initialSelection);
+  useEffect(() => setSelected(initialSelection()), [product.id]); // eslint-disable-line
+
+  const p = useMemo<ProductDetailData>(() => {
+    const m: ProductDetailData = { ...product };
+    (product.variants ?? []).forEach((g) => {
+      const o = g.options.find((x) => x.id === selected[g.name]);
+      if (!o) return;
+      if (o.name) m.name = o.name;
+      if (o.price != null) m.price = o.price;
+      if (o.originalPrice != null) m.originalPrice = o.originalPrice;
+      if (o.discountPercentage != null)
+        m.discountPercentage = o.discountPercentage;
+      if (o.offerLabel) m.offerLabel = o.offerLabel;
+      if (o.images?.length) m.images = o.images;
+    });
+    if (!m.images?.length && product.image)
+      m.images = [{ url: product.image, alt: product.name }];
+    return m;
+  }, [product, selected]);
+
+  const pickVariant = (g: ProductVariantGroup, o: ProductVariantOption) => {
+    setSelected((s) => ({ ...s, [g.name]: o.id }));
+    // update the address bar only, with no navigation or refetch
+    if (o.href) window.history.replaceState(null, "", o.href);
+  };
   const [mode, setMode] = useState<"delivery" | "pickup">("delivery");
   const [tab, setTab] = useState<TabKey>("description");
   const [showBar, setShowBar] = useState(false);
@@ -1139,7 +1180,7 @@ export default function ProductDetail({
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 relative">
                   <Gallery
-                    images={p.images}
+                    images={p.images ?? []}
                     express={p.express}
                     expressLabel={L.express}
                     productId={p.id}
@@ -1183,7 +1224,7 @@ export default function ProductDetail({
                             </h3>
                             <div className="flex lg:flex-wrap gap-2 overflow-x-auto lg:overflow-x-visible pb-2">
                               {g.options.map((o) => {
-                                const active = o.id === g.selectedId;
+                                const active = o.id === selected[g.name];
                                 const inner = (
                                   <div className="flex items-center gap-2">
                                     {o.image && (
@@ -1217,18 +1258,11 @@ export default function ProductDetail({
                                   o.disabled &&
                                     "opacity-50 pointer-events-none",
                                 );
-                                return o.href && !active ? (
-                                  <Link
-                                    key={o.id}
-                                    href={o.href}
-                                    className={cls}
-                                  >
-                                    {inner}
-                                  </Link>
-                                ) : (
+                                return (
                                   <button
                                     key={o.id}
                                     type="button"
+                                    onClick={() => pickVariant(g, o)}
                                     className={cls}
                                   >
                                     {inner}

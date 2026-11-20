@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const announcements = [
   "GLP-1 Friendly Top Picks · Shop Now",
@@ -72,11 +73,15 @@ export default function SiteNavigation() {
           {/* Logo and search */}
           <div className="flex flex-wrap items-center gap-4 py-4 md:py-5">
             {/* Logo */}
-            <Link
-              href="/"
-              className="shrink-0 text-5xl font-black tracking-tighter text-purple-800"
-            >
-              d<span className="text-green-600">N</span>P
+            <Link href="/" className="shrink-0">
+              <Image
+                src="/logo_4.webp"
+                width={150}
+                height={100}
+                alt="Logo"
+                priority
+                className="h-auto w-[150px] object-contain"
+              />
             </Link>
 
             {/* Location */}
