@@ -1,0 +1,193 @@
+[
+  {
+    "ProductURL": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
+    "product": {
+      "id": 0,
+      "name": "Laperva Keto Cola, Box of 24 Pieces, Cola",
+      "brand": {
+        "name": "Laperva",
+        "href": "/en-ae/brands/laperva",
+        "image": ""
+      },
+      "breadcrumbs": [
+        { "name": "Home", "href": "/en-ae" },
+        { "name": "Healthy Foods", "href": "/en-ae/categories/healthy-foods" },
+        { "name": "Snacks", "href": "/en-ae/categories/snacks" },
+        { "name": "Diet Snacks", "href": "/en-ae/categories/diet-snacks" }
+      ],
+      "tags": ["Healthy Foods", "Snacks", "Diet Snacks"],
+      "images": [
+        {
+          "url": "https://media.drnutrition.com/media/thumbnail/0pCLsHVkZkVEhJg52akRtETc17loXgJgdl8lrxsv.jpg",
+          "alt": "Laperva Keto Cola, Box of 12 Pieces, Cola"
+        }
+      ],
+      "express": true,
+      "variants": [
+        {
+          "name": "Flavor",
+          "selectedId": "cola",
+          "options": [
+            {
+              "id": "cola",
+              "label": "Cola",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "name": "Quantity",
+          "selectedId": "1",
+          "options": [
+            {
+              "id": "1",
+              "label": "1 Piece",
+              "href": "/laperva-keto-cola-cola-1-piece"
+            },
+            {
+              "id": "12",
+              "label": "Box of 12 Pieces",
+              "href": "/laperva-keto-cola-cola-box-of-12-pieces"
+            },
+            {
+              "id": "24",
+              "label": "Box of 24 Pieces",
+              "href": "/laperva-keto-cola-cola-box-of-24-pieces"
+            }
+          ]
+        }
+      ],
+      "price": 48,
+      "originalPrice": 168,
+      "discountPercentage": 71,
+      "currency": "AED",
+      "inStock": true,
+      "soldRecently": "89+ sold recently",
+      "offerLabel": "FLASH SALE -71% OFF",
+      "descriptionHtml": "<p>Laperva Keto Cola is a wonderful and refreshing Keto Cola soft drink enriched with an important set of ingredients that make it the number one choice in its class. The world's first Laperva Soft Drink contains 100 gm. BCAAs are important in the process of building muscle and are very important in the process of muscle recovery and pain relief, and it also contains important minerals such as sodium.</p><h2>Features of Laperva Keto Cola</h2><ul><li>Zero calories.</li><li>Contains 100 mg of BCAAs.</li><li>Sweetened with stevia.</li><li>Contains important minerals such as sodium.</li></ul>",
+      "howToUseHtml": "<p>Consume 1 can prior to or during exercise.</p>",
+      "healthNotesHtml": "<ul><li>Do not exceed recommended doses.</li><li>Do not use during breastfeeding, pregnancy, or for children.</li><li>Store the product in a cool, dry place in a well-sealed container.</li><li>The product is intended for adults only and should be used as part of a varied, balanced diet and healthy lifestyle.</li><li>If you are under medical supervision or taking any prescription medications, please consult your doctor before use.</li></ul>",
+      "details": [
+        { "label": "SKU", "value": "5902860346432" },
+        { "label": "Item No", "value": "AE-00011963" },
+        { "label": "Weight", "value": "8.16kg" },
+        { "label": "Country of Origin", "value": "Czech Republic" }
+      ],
+      "nutrition": {
+        "size": "Box of 24 Pieces",
+        "flavor": "Cola",
+        "servingSize": "330ml",
+        "servingsPerContainer": 24,
+        "rows": [
+          { "name": "Calories", "amount": "0" },
+          { "name": "Total Fat", "amount": "0g" },
+          { "name": "Saturated Fat", "amount": "0g" },
+          { "name": "Trans Fat", "amount": "0g" },
+          { "name": "Cholesterol", "amount": "0mg" },
+          { "name": "Total Carbohydrate", "amount": "0g" },
+          { "name": "Total Sugars", "amount": "0g" },
+          { "name": "Added Sugars", "amount": "0g" },
+          { "name": "Dietary Fiber", "amount": "0g" },
+          { "name": "Protein", "amount": "0g" },
+          { "name": "Sodium", "amount": "10.6mg", "dv": "0.5%" },
+          { "name": "BCAA BLEND", "amount": "100mg" },
+          { "name": "L-Leucine", "amount": "50mg", "indent": true },
+          { "name": "L-Isoleucine", "amount": "25mg", "indent": true },
+          { "name": "L-Valine", "amount": "25mg", "indent": true },
+          { "name": "Magnesium", "amount": "10mg", "dv": "2.4%" }
+        ],
+        "ingredients": "Water, Carbon Dioxide, Colour (E150d), Acidifier (E338), Sweeteners (Sucralose, Stevia), Preservative (E211), L-leucine, Magnesium Citrate, L-isoleucine, L-valine, Cola Natural Flavouring."
+      },
+      "reviews": {
+        "average": 4.9,
+        "count": 12,
+        "breakdown": {
+          "5": 91.7,
+          "4": 8.3,
+          "3": 0,
+          "2": 0,
+          "1": 0
+        },
+        "items": [
+          {
+            "id": 1,
+            "author": "Javid",
+            "rating": 5,
+            "date": "2024-09-26",
+            "comment": "It's good"
+          },
+          {
+            "id": 2,
+            "author": "Ahmed",
+            "rating": 5,
+            "date": "2024-07-08",
+            "comment": "tasty"
+          },
+          {
+            "id": 3,
+            "author": "angham",
+            "rating": 5,
+            "date": "2024-07-08",
+            "comment": "taaaaaaaasty"
+          },
+          {
+            "id": 4,
+            "author": "Khalid",
+            "rating": 5,
+            "date": "2022-07-29",
+            "comment": "Love it"
+          },
+          {
+            "id": 5,
+            "author": "عبدالمنان",
+            "rating": 5,
+            "date": "2022-06-09",
+            "comment": "طعم رائع جدا وصحي"
+          },
+          {
+            "id": 6,
+            "author": "علي",
+            "rating": 5,
+            "date": "2022-03-22",
+            "comment": "رووووووووعه"
+          },
+          {
+            "id": 7,
+            "author": "mohamed",
+            "rating": 5,
+            "date": "2022-03-19",
+            "comment": "best soft drink for sports and diet people"
+          },
+          {
+            "id": 8,
+            "author": "sameh",
+            "rating": 5,
+            "date": "2022-03-19",
+            "comment": "healthy cola like it"
+          },
+          {
+            "id": 9,
+            "author": "مصطفي",
+            "rating": 5,
+            "date": "2022-03-18",
+            "comment": "الطعم ممتاز جدا"
+          },
+          {
+            "id": 10,
+            "author": "عبدالله",
+            "rating": 5,
+            "date": "2022-03-17",
+            "comment": "excellent"
+          }
+        ]
+      },
+      "guarantees": [
+        "Easy and Hassle Free Returns",
+        "Secure Payments",
+        "In Stock - Fast Delivery"
+      ],
+      "related": [],
+      "similar": []
+    }
+  }
+]

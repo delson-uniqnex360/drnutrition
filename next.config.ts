@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.drnutrition.com",
+        pathname: "/media/**",
+      },
+    ],
+  },
   /* config options here */
   experimental: {
     agentFeedback: true,

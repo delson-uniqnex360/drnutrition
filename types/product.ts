@@ -30,3 +30,10 @@ export type Product = {
       }[]
     | null;
 };
+
+import { ProductDetailData } from "@/app/[slug]/ProductDetail";
+
+export interface ProductCatalogItem {
+  ProductURL: string;
+  product: ProductDetailData;
+}
