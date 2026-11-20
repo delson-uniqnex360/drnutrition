@@ -35,7 +35,6 @@ export default function ProductCard({ item }: { item: ProductCatalogItem }) {
   const rating = product.reviews?.average;
   const image = product.image;
 
-
   return (
     <article className="group relative flex h-full w-[220px] shrink-0 flex-col overflow-hidden rounded-md border border-gray-200 bg-white">
       {/* Badges */}
@@ -165,9 +164,19 @@ export default function ProductCard({ item }: { item: ProductCatalogItem }) {
 export function ProductRow({ products }: { products: ProductCatalogItem[] }) {
   return (
     <div className="flex gap-3 overflow-x-auto pb-3 [scrollbar-width:thin]">
-      {products.map((item) => (
-        <ProductCard key={item.product.id} item={item} />
-      ))}
+      {products.map((item, index) => {
+        if (!item?.product) {
+          console.warn("Invalid product catalog item:", item);
+          return null;
+        }
+
+        return (
+          <ProductCard
+            key={`${item.product.id ?? item.ProductURL ?? "product"}-${index}`}
+            item={item}
+          />
+        );
+      })}
     </div>
   );
 }

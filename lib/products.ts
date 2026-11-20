@@ -9,10 +9,24 @@ const PRODUCT_FILE = path.join(
   "productv2.json",
 );
 
+type RawProduct = ProductCatalogItem["product"] & {
+  productUrl?: string;
+  ProductURL?: string;
+};
+
 export function getProducts(): ProductCatalogItem[] {
   try {
     const file = fs.readFileSync(PRODUCT_FILE, "utf-8");
-    return JSON.parse(file) as ProductCatalogItem[];
+    const rawProducts = JSON.parse(file) as RawProduct[];
+
+    return rawProducts.map((raw) => {
+      const { productUrl, ProductURL, ...product } = raw;
+
+      return {
+        ProductURL: ProductURL || productUrl || "",
+        product,
+      };
+    });
   } catch (error) {
     console.error("Failed to load products:", error);
     return [];

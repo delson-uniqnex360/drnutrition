@@ -1,188 +1,1021 @@
 [
   {
-    "ProductURL": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
-    "product": {
-      "id": 0,
-      "name": "Laperva Keto Cola",
-      "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
-      "brand": {
-        "name": "Laperva",
-        "href": "/en-ae/brands/laperva",
-        "image": ""
+    "id": 1,
+    "name": "Laperva Keto Cola",
+    "brand": {
+      "name": "Laperva",
+      "href": ""
+    },
+    "breadcrumbs": [],
+    "tags": [],
+    "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
+        "alt": "Laperva Keto Cola 1 Piece"
       },
-      "breadcrumbs": [],
-      "tags": [],
-      "variants": [
-        {
-          "name": "Flavor",
-          "selectedId": "cola",
-          "options": [
-            {
-              "id": "cola",
-              "label": "Cola",
-              "image": ""
-            }
-          ]
-        },
-        {
-          "name": "Quantity",
-          "selectedId": "1",
-          "options": [
-            {
-              "id": "1",
-              "label": "1 Piece",
-              "href": "/en-ae/laperva-keto-cola-cola-1-piece",
-              "name": "Laperva Keto Cola, 1 Piece, Cola",
-              "sku": "7302860346100",
-              "price": 3,
-              "currency": "AED",
-              "images": [
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                },
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-2_adhkxx.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                },
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-3_cbnvsi.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                },
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-4_ncsmdo.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                },
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177305/Keto_Cola-1piece-5_hw2i00.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                },
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-6_eltrmm.webp",
-                  "alt": "Laperva Keto Cola, 1 Piece, Cola"
-                }
-              ]
-            },
-            {
-              "id": "12",
-              "label": "Box of 12 Pieces",
-              "href": "/en-ae/laperva-keto-cola-cola-box-of-12-pieces",
-              "name": "Laperva Keto Cola, Cola-Flavoured Soft Drink, 12 Piece",
-              "sku": "5902860346432",
-              "price": 29,
-              "currency": "AED",
-              "images": [
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177484/Keto_Cola-12piece-1_y57ivb.webp",
-                  "alt": "Laperva Keto Cola, Cola-Flavoured Soft Drink, 12 Piece"
-                }
-              ]
-            },
-            {
-              "id": "24",
-              "label": "Box of 24 Pieces",
-              "href": "/en-ae/laperva-keto-cola-cola-box-of-24-pieces",
-              "name": "Laperva Keto Cola, Cola-Flavoured Soft Drink, 24 Piece",
-              "sku": "5902860346432",
-              "price": 48,
-              "currency": "AED",
-              "images": [
-                {
-                  "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177483/Keto_Cola-24piece-1_ivqhkz.webp",
-                  "alt": "Laperva Keto Cola, Cola-Flavoured Soft Drink, 24 Piece"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "price": 3,
-      "currency": "AED",
-      "descriptionHtml": "<p>Laperva Keto Cola is a cola-flavoured soft drink designed for consumers looking for a zero-calorie beverage option. It combines a familiar cola flavour with selected functional ingredients, including branched-chain amino acids (BCAAs), and is sweetened with stevia.</p><p>Each product contains 100 mg of BCAAs, a group of three essential amino acids: leucine, isoleucine and valine. These amino acids are included as part of the beverage's formulation. The product is also marketed as a zero-calorie drink, making it an option for consumers seeking a calorie-free cola alternative.</p><p>Laperva Keto Cola is sweetened with stevia and offers a convenient beverage option. Its cola flavour makes it suitable for consumers looking for an alternative to conventional cola drinks.</p>",
-      "features": [
-        "Provides a cola-flavoured soft drink option.",
-        "Contains 100 mg of branched-chain amino acids (BCAAs).",
-        "Features a BCAA blend comprising essential amino acids.",
-        "Sweetened with stevia.",
-        "Marketed as a zero-calorie beverage."
-      ],
-      "details": [
-        {
-          "label": "Brand",
-          "value": "Laperva"
-        },
-        {
-          "label": "SKU",
-          "value": "7302860346100"
-        },
-        {
-          "label": "Item Number",
-          "value": "AE-00011963"
-        },
-        {
-          "label": "Product Type",
-          "value": "Soft Drink"
-        },
-        {
-          "label": "Flavour",
-          "value": "Cola"
-        },
-        {
-          "label": "Calories",
-          "value": "0"
-        },
-        {
-          "label": "BCAA Content",
-          "value": "100 mg"
-        }
-      ],
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
-          "alt": "Laperva Keto Cola - Image 1"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-2_adhkxx.webp",
-          "alt": "Laperva Keto Cola - Image 2"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-3_cbnvsi.webp",
-          "alt": "Laperva Keto Cola - Image 3"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-4_ncsmdo.webp",
-          "alt": "Laperva Keto Cola - Image 4"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177305/Keto_Cola-1piece-5_hw2i00.webp",
-          "alt": "Laperva Keto Cola - Image 5"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-6_eltrmm.webp",
-          "alt": "Laperva Keto Cola - Image 6"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177484/Keto_Cola-12piece-1_y57ivb.webp",
-          "alt": "Laperva Keto Cola - Box of 12 Pieces"
-        },
-        {
-          "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177483/Keto_Cola-24piece-1_ivqhkz.webp",
-          "alt": "Laperva Keto Cola - Box of 24 Pieces"
-        }
-      ],
-      "nutrition": {
-        "available": true,
-        "rows": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-2_adhkxx.webp",
+        "alt": "Laperva Keto Cola image 2"
+      },
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-3_cbnvsi.webp",
+        "alt": "Laperva Keto Cola image 3"
+      },
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-4_ncsmdo.webp",
+        "alt": "Laperva Keto Cola image 4"
+      },
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177305/Keto_Cola-1piece-5_hw2i00.webp",
+        "alt": "Laperva Keto Cola image 5"
+      },
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-6_eltrmm.webp",
+        "alt": "Laperva Keto Cola image 6"
+      }
+    ],
+    "price": 3.0,
+    "currency": "AED",
+    "inStock": true,
+    "productUrl": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
+    "descriptionHtml": "Laperva Keto Cola is a cola-flavoured soft drink designed for consumers looking for a zero-calorie beverage option. It combines a familiar cola flavour with selected functional ingredients, including branched-chain amino acids (BCAAs), and is sweetened with stevia.<br><br>Each product contains 100 mg of BCAAs, a group of three essential amino acids: leucine, isoleucine and valine. These amino acids are included as part of the beverage's formulation. The product is also marketed as a zero-calorie drink, making it an option for consumers seeking a calorie-free cola alternative.<br><br>Laperva Keto Cola is sweetened with stevia and offers a convenient beverage option. Its cola flavour makes it suitable for consumers looking for an alternative to conventional cola drinks while following their preferred dietary choices.",
+    "features": [
+      "Provides a cola-flavoured soft drink option.",
+      "Contains 100 mg of branched-chain amino acids (BCAAs).",
+      "Features a BCAA blend comprising essential amino acids.",
+      "Sweetened with stevia.",
+      "Marketed as a zero-calorie beverage."
+    ],
+    "nutritionAvailable": true,
+    "details": [
+      {
+        "label": "Brand",
+        "value": "Laperva"
+      },
+      {
+        "label": "Product Type",
+        "value": "Soft Drink"
+      },
+      {
+        "label": "Flavour",
+        "value": "Cola"
+      },
+      {
+        "label": "Calories",
+        "value": "0"
+      },
+      {
+        "label": "BCAA Content",
+        "value": "100 mg"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Quantity",
+        "selectedId": "1-piece",
+        "options": [
           {
-            "name": "Calories",
-            "amount": "0"
+            "id": "1-piece",
+            "label": "1 Piece",
+            "price": 3.0,
+            "href": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
+                "alt": "Laperva Keto Cola 1 Piece"
+              },
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-2_adhkxx.webp",
+                "alt": "Laperva Keto Cola image 2"
+              },
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-3_cbnvsi.webp",
+                "alt": "Laperva Keto Cola image 3"
+              },
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-4_ncsmdo.webp",
+                "alt": "Laperva Keto Cola image 4"
+              },
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177305/Keto_Cola-1piece-5_hw2i00.webp",
+                "alt": "Laperva Keto Cola image 5"
+              },
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177304/Keto_Cola-1piece-6_eltrmm.webp",
+                "alt": "Laperva Keto Cola image 6"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Laperva"
+              },
+              {
+                "label": "SKU",
+                "value": "7302860346100"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00011963"
+              },
+              {
+                "label": "Product Type",
+                "value": "Soft Drink"
+              },
+              {
+                "label": "Flavour",
+                "value": "Cola"
+              },
+              {
+                "label": "Quantity",
+                "value": "1 Piece"
+              },
+              {
+                "label": "Calories",
+                "value": "0"
+              },
+              {
+                "label": "BCAA Content",
+                "value": "100 mg"
+              }
+            ]
           },
           {
-            "name": "BCAA Content",
-            "amount": "100 mg"
+            "id": "12-piece",
+            "label": "Box of 12 Pieces",
+            "price": 29.0,
+            "href": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177484/Keto_Cola-12piece-1_y57ivb.webp",
+                "alt": "Laperva Keto Cola box of 12"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Laperva"
+              },
+              {
+                "label": "SKU",
+                "value": "5902860346432"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00011963"
+              },
+              {
+                "label": "Product Type",
+                "value": "Soft Drink"
+              },
+              {
+                "label": "Flavour",
+                "value": "Cola"
+              },
+              {
+                "label": "Quantity",
+                "value": "Box of 12 Pieces"
+              },
+              {
+                "label": "Calories",
+                "value": "0"
+              },
+              {
+                "label": "BCAA Content",
+                "value": "100 mg"
+              }
+            ]
+          },
+          {
+            "id": "24-piece",
+            "label": "Box of 24 Pieces",
+            "price": 48.0,
+            "href": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177483/Keto_Cola-24piece-1_ivqhkz.webp",
+                "alt": "Laperva Keto Cola box of 24"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Laperva"
+              },
+              {
+                "label": "SKU",
+                "value": "5902860346432"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00011963"
+              },
+              {
+                "label": "Product Type",
+                "value": "Soft Drink"
+              },
+              {
+                "label": "Flavour",
+                "value": "Cola"
+              },
+              {
+                "label": "Quantity",
+                "value": "Box of 24 Pieces"
+              },
+              {
+                "label": "Calories",
+                "value": "0"
+              },
+              {
+                "label": "BCAA Content",
+                "value": "100 mg"
+              }
+            ]
           }
         ]
       }
-    }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Farah Secrets Creatine Monohydrate",
+    "brand": {
+      "name": "Farah Secrets",
+      "href": ""
+    },
+    "breadcrumbs": [],
+    "tags": [],
+    "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
+        "alt": "Farah Secrets Creatine Orange"
+      }
+    ],
+    "price": 63.0,
+    "currency": "AED",
+    "inStock": true,
+    "productUrl": "https://drnutrition.com/en-ae/farah-secrets-creatine",
+    "descriptionHtml": "Farah Secrets Creatine Monohydrate is a micronized creatine supplement formulated for sports nutrition and fitness use. This product provides creatine monohydrate in a 300 g container.<br><br>The formula features micronized creatine monohydrate, a commonly used ingredient in sports nutrition supplements. Each serving provides 5 g of creatine monohydrate. The 300 g container provides 60 servings, with a serving size of one 5 g scoop.<br><br>Farah Secrets Creatine is designed for athletes, bodybuilders and fitness enthusiasts looking to include creatine monohydrate in their sports nutrition routine.",
+    "features": [
+      "Contains micronized creatine monohydrate.",
+      "Provides 5 g of creatine monohydrate per serving.",
+      "Supplied in a 300 g container with 60 servings.",
+      "Offers a convenient scoop-based serving format.",
+      "Designed for sports nutrition and fitness supplementation."
+    ],
+    "nutritionAvailable": true,
+    "details": [
+      {
+        "label": "Brand",
+        "value": "Farah Secrets"
+      },
+      {
+        "label": "Product Type",
+        "value": "Creatine Monohydrate"
+      },
+      {
+        "label": "Product Form",
+        "value": "Powder"
+      },
+      {
+        "label": "Net Weight",
+        "value": "300 g"
+      },
+      {
+        "label": "Ingredient",
+        "value": "Creatine Monohydrate"
+      },
+      {
+        "label": "Serving Size",
+        "value": "1 scoop (5 g)"
+      },
+      {
+        "label": "Servings Per Container",
+        "value": "60"
+      },
+      {
+        "label": "Creatine Monohydrate Per Serving",
+        "value": "5 g"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Flavor",
+        "selectedId": "orange",
+        "options": [
+          {
+            "id": "orange",
+            "label": "Orange",
+            "price": 63.0,
+            "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
+                "alt": "Farah Secrets Creatine Orange"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Farah Secrets"
+              },
+              {
+                "label": "SKU",
+                "value": "6224003137127"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00025717"
+              },
+              {
+                "label": "Product Type",
+                "value": "Creatine Monohydrate"
+              },
+              {
+                "label": "Product Form",
+                "value": "Powder"
+              },
+              {
+                "label": "Flavour",
+                "value": "Orange"
+              },
+              {
+                "label": "Net Weight",
+                "value": "300 g"
+              },
+              {
+                "label": "Ingredient",
+                "value": "Creatine Monohydrate"
+              },
+              {
+                "label": "Serving Size",
+                "value": "1 scoop (5 g)"
+              },
+              {
+                "label": "Servings Per Container",
+                "value": "60"
+              },
+              {
+                "label": "Creatine Monohydrate Per Serving",
+                "value": "5 g"
+              }
+            ]
+          },
+          {
+            "id": "unflavored",
+            "label": "Unflavored",
+            "price": 63.0,
+            "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Unflavored-1_qckwtd.webp",
+                "alt": "Farah Secrets Creatine Unflavored"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Farah Secrets"
+              },
+              {
+                "label": "SKU",
+                "value": "6224011266994"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00025721"
+              },
+              {
+                "label": "Product Type",
+                "value": "Creatine Monohydrate"
+              },
+              {
+                "label": "Product Form",
+                "value": "Powder"
+              },
+              {
+                "label": "Flavour",
+                "value": "Unflavored"
+              },
+              {
+                "label": "Net Weight",
+                "value": "300 g"
+              },
+              {
+                "label": "Ingredient",
+                "value": "Creatine Monohydrate"
+              },
+              {
+                "label": "Serving Size",
+                "value": "1 scoop (5 g)"
+              },
+              {
+                "label": "Servings Per Container",
+                "value": "60"
+              },
+              {
+                "label": "Creatine Monohydrate Per Serving",
+                "value": "5 g"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "BPI Sports One More Rep",
+    "brand": {
+      "name": "bpi Sports",
+      "href": ""
+    },
+    "breadcrumbs": [],
+    "tags": [],
+    "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177797/BPI_Sports-Berry-Splash-1_ax6oln.webp",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177797/BPI_Sports-Berry-Splash-1_ax6oln.webp",
+        "alt": "BPI Sports One More Rep Berry Splash"
+      }
+    ],
+    "price": 75.0,
+    "currency": "AED",
+    "inStock": true,
+    "productUrl": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
+    "descriptionHtml": "BPI Sports One More Rep is a pre-workout supplement in powder form, designed for consumption before exercise. It is part of BPI Sports' sports nutrition range and is intended for individuals looking for a pre-workout supplement as part of their exercise routine.<br><br>Each container provides 25 servings. The product is supplied as a powder for preparation as a pre-workout beverage and is available in multiple flavour variants.",
+    "features": [
+      "Pre-workout supplement designed for use before exercise.",
+      "Provides 25 servings per container.",
+      "Powder format for preparation as a pre-workout beverage.",
+      "Part of the BPI Sports sports nutrition range."
+    ],
+    "nutritionAvailable": true,
+    "details": [
+      {
+        "label": "Brand",
+        "value": "BPI Sports"
+      },
+      {
+        "label": "Product Type",
+        "value": "Pre-Workout Supplement"
+      },
+      {
+        "label": "Product Form",
+        "value": "Powder"
+      },
+      {
+        "label": "Servings Per Container",
+        "value": "25"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Flavor",
+        "selectedId": "berry-splash",
+        "options": [
+          {
+            "id": "berry-splash",
+            "label": "Berry Splash",
+            "price": 75.0,
+            "href": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177797/BPI_Sports-Berry-Splash-1_ax6oln.webp",
+                "alt": "BPI Sports One More Rep Berry Splash"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "BPI Sports"
+              },
+              {
+                "label": "SKU",
+                "value": "810516030619"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00015809"
+              },
+              {
+                "label": "Product Type",
+                "value": "Pre-Workout Supplement"
+              },
+              {
+                "label": "Flavour",
+                "value": "Berry Splash"
+              },
+              {
+                "label": "Servings Per Container",
+                "value": "25"
+              },
+              {
+                "label": "Product Form",
+                "value": "Powder"
+              }
+            ]
+          },
+          {
+            "id": "fruit-punch",
+            "label": "Fruit Punch",
+            "price": 73.0,
+            "href": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177796/BPI_Sports-Fruit-Punch-1_aqquwp.webp",
+                "alt": "BPI Sports One More Rep Fruit Punch"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "BPI Sports"
+              },
+              {
+                "label": "SKU",
+                "value": "810516030596"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00015808"
+              },
+              {
+                "label": "Product Type",
+                "value": "Pre-Workout Supplement"
+              },
+              {
+                "label": "Flavour",
+                "value": "Fruit Punch"
+              },
+              {
+                "label": "Servings Per Container",
+                "value": "25"
+              },
+              {
+                "label": "Product Form",
+                "value": "Powder"
+              }
+            ]
+          },
+          {
+            "id": "raspberry",
+            "label": "Raspberry",
+            "price": 78.0,
+            "href": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177795/BPI_Sports-Raspberry-1_jijxqu.webp",
+                "alt": "BPI Sports One More Rep Raspberry"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "BPI Sports"
+              },
+              {
+                "label": "SKU",
+                "value": "810516030626"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00016049"
+              },
+              {
+                "label": "Product Type",
+                "value": "Pre-Workout Supplement"
+              },
+              {
+                "label": "Flavour",
+                "value": "Raspberry"
+              },
+              {
+                "label": "Servings Per Container",
+                "value": "25"
+              },
+              {
+                "label": "Product Form",
+                "value": "Powder"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Body Builder Boxing Gloves",
+    "brand": {
+      "name": "Body Builder",
+      "href": ""
+    },
+    "breadcrumbs": [],
+    "tags": [],
+    "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177925/Boxing_Gloves-10OZ-1_pdodo9.webp",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177925/Boxing_Gloves-10OZ-1_pdodo9.webp",
+        "alt": "Body Builder Boxing Gloves 10 OZ"
+      }
+    ],
+    "price": 132.0,
+    "currency": "AED",
+    "inStock": true,
+    "productUrl": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
+    "descriptionHtml": "Body Builder Boxing Gloves are designed for boxing, kickboxing and fitness training sessions. Made with durable synthetic leather, these boxing gloves combine multi-layer foam padding, an adjustable Velcro wrist strap and a breathable inner lining to support comfort and hand protection during training.<br><br>The synthetic leather outer material provides a durable construction suitable for regular training activities. Multi-layer foam padding is incorporated to help absorb impact during punching exercises, while the adjustable Velcro strap provides a secure fit around the wrist and additional wrist stability.<br><br>The breathable inner lining helps manage moisture inside the gloves and supports a cooler, more comfortable feel during workouts. Its ventilated construction is also intended to help reduce moisture and odour.<br><br>Available in 10 OZ and 12 OZ variants.",
+    "features": [
+      "Durable synthetic leather construction for regular training activities.",
+      "Multi-layer foam padding designed to help absorb impact during punching exercises.",
+      "Adjustable Velcro wrist strap for a secure and comfortable fit.",
+      "Wrist fastening designed to provide additional wrist stability during training.",
+      "Breathable inner lining to help manage moisture and reduce odour.",
+      "Suitable for boxing, kickboxing and fitness training sessions."
+    ],
+    "nutritionAvailable": false,
+    "details": [
+      {
+        "label": "Brand",
+        "value": "Body Builder"
+      },
+      {
+        "label": "Product Type",
+        "value": "Boxing Gloves"
+      },
+      {
+        "label": "Outer Material",
+        "value": "Synthetic Leather"
+      },
+      {
+        "label": "Padding",
+        "value": "Multi-layer Foam Padding"
+      },
+      {
+        "label": "Wrist Closure",
+        "value": "Adjustable Velcro Strap"
+      },
+      {
+        "label": "Inner Lining",
+        "value": "Breathable / Ventilated Lining"
+      },
+      {
+        "label": "Recommended Activities",
+        "value": "Boxing, Kickboxing, Fitness Training"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "selectedId": "10-oz",
+        "options": [
+          {
+            "id": "10-oz",
+            "label": "10 OZ",
+            "price": 132.0,
+            "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177925/Boxing_Gloves-10OZ-1_pdodo9.webp",
+                "alt": "Body Builder Boxing Gloves 10 OZ"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Body Builder"
+              },
+              {
+                "label": "SKU",
+                "value": "4262507123316"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00024322"
+              },
+              {
+                "label": "Product Type",
+                "value": "Boxing Gloves"
+              },
+              {
+                "label": "Size",
+                "value": "10 OZ"
+              },
+              {
+                "label": "Outer Material",
+                "value": "Synthetic Leather"
+              },
+              {
+                "label": "Padding",
+                "value": "Multi-layer Foam Padding"
+              },
+              {
+                "label": "Wrist Closure",
+                "value": "Adjustable Velcro Strap"
+              },
+              {
+                "label": "Inner Lining",
+                "value": "Breathable / Ventilated Lining"
+              },
+              {
+                "label": "Recommended Activities",
+                "value": "Boxing, Kickboxing, Fitness Training"
+              }
+            ]
+          },
+          {
+            "id": "12-oz",
+            "label": "12 OZ",
+            "price": 132.0,
+            "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177925/Boxing_Gloves-12OZ-1_ky9tka.webp",
+                "alt": "Body Builder Boxing Gloves 12 OZ"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Body Builder"
+              },
+              {
+                "label": "SKU",
+                "value": "4262507123323"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00024323"
+              },
+              {
+                "label": "Product Type",
+                "value": "Boxing Gloves"
+              },
+              {
+                "label": "Size",
+                "value": "12 OZ"
+              },
+              {
+                "label": "Outer Material",
+                "value": "Synthetic Leather"
+              },
+              {
+                "label": "Padding",
+                "value": "Multi-layer Foam Padding"
+              },
+              {
+                "label": "Wrist Closure",
+                "value": "Adjustable Velcro Strap"
+              },
+              {
+                "label": "Inner Lining",
+                "value": "Breathable / Ventilated Lining"
+              },
+              {
+                "label": "Recommended Activities",
+                "value": "Boxing, Kickboxing, Fitness Training"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Omron E3 Intense Pain Reliever",
+    "brand": {
+      "name": "Omron",
+      "href": ""
+    },
+    "breadcrumbs": [],
+    "tags": [],
+    "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177993/Omron_E3-1_d8vatc.webp",
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177993/Omron_E3-1_d8vatc.webp",
+        "alt": "Omron E3 Intense Pain Reliever"
+      }
+    ],
+    "price": 237.15,
+    "currency": "AED",
+    "inStock": true,
+    "productUrl": "https://drnutrition.com/en-in/omron-e3-intense-pain-reliever?srsltid=AYCX9vJLJ7dgrWbEuTildDluzSYzUJGTmcxPkiNebJyC-HM_bRXfNmZ_",
+    "descriptionHtml": "The Omron E3 Intense Pain Reliever is a portable, drug-free TENS (Transcutaneous Electrical Nerve Stimulation) device designed to help relieve muscle and joint pain, stiffness and numbness. It uses Triple Action TENS technology to deliver controlled electrical stimulation through adhesive electrode pads placed on the skin near the area of discomfort. The device is intended for home use by adults and can be used on the back, shoulders, arms, legs, joints and feet.<br><br>The device uses three actions to support pain relief: helping block pain messages travelling through the nerves, triggering the release of endorphins (the body's natural pain-relieving chemicals), and supporting blood circulation through repeated muscle contractions and relaxation. TENS provides symptomatic pain relief and does not cure the underlying cause of pain.<br><br><strong>Personalised Treatment Options</strong><br>Omron E3 Intense offers six preset body-area programmes covering the back, shoulders, joints, arms, legs and soles or feet. It also features three massage modes: tapping, kneading and rubbing. Combined with 15 adjustable intensity levels, these options allow users to customise electrical stimulation according to their comfort and treatment preferences.<br><br><strong>Reusable Electrode Pads and Convenient Operation</strong><br>The device includes Long Life electrode pads that can be washed and reused up to 150 times when maintained according to the manufacturer's instructions. The adhesive pads are designed for repeated application to clean, dry and healthy skin. Both pads must be attached simultaneously for the therapy to function correctly.<br><br>The device features a display that shows the selected treatment information, intensity level and remaining session time. Its compact design and battery-powered operation make it suitable for home use and convenient to carry when travelling.<br><br><strong>Treatment Duration and Operation</strong><br>Each treatment session runs automatically for 15 minutes before the device switches off. The manufacturer recommends a maximum of two 15-minute sessions per sitting, up to three times daily. Users should follow the instruction manual for correct electrode placement, intensity adjustment and pad maintenance.<br><br>The package includes the main E3 Intense unit, electrode cord, Long Life Pads, pad holder, trial batteries, belt clip, soft pouch and instruction manual.",
+    "features": [
+      "Uses Triple Action TENS technology for drug-free, electrical nerve stimulation.",
+      "Offers six preset treatment programmes for different body areas.",
+      "Includes three massage techniques: tapping, kneading and rubbing.",
+      "Provides 15 adjustable intensity levels for personalised stimulation.",
+      "Supports treatment of muscle and joint discomfort, stiffness and numbness.",
+      "Includes washable Long Life electrode pads reusable up to 150 times.",
+      "Features a display for monitoring treatment settings and remaining session time.",
+      "Automatically switches off after each 15-minute treatment session.",
+      "Compact, battery-powered design for convenient home use and portability.",
+      "Includes a belt clip and soft pouch for convenient carrying and storage."
+    ],
+    "nutritionAvailable": false,
+    "details": [
+      {
+        "label": "Brand",
+        "value": "Omron"
+      },
+      {
+        "label": "Product Type",
+        "value": "TENS Pain Relief Device"
+      },
+      {
+        "label": "Technology",
+        "value": "Triple Action TENS"
+      },
+      {
+        "label": "Treatment Programmes",
+        "value": "6 preset body-area programmes"
+      },
+      {
+        "label": "Massage Modes",
+        "value": "3 (Tap, Knead, Rub)"
+      },
+      {
+        "label": "Intensity Levels",
+        "value": "15"
+      },
+      {
+        "label": "Treatment Duration",
+        "value": "15 minutes per automatic session"
+      },
+      {
+        "label": "Electrode Pads",
+        "value": "Long Life reusable pads"
+      },
+      {
+        "label": "Pad Reusability",
+        "value": "Up to 150 uses"
+      },
+      {
+        "label": "Display",
+        "value": "Yes"
+      },
+      {
+        "label": "Power Source",
+        "value": "DC 3 V"
+      },
+      {
+        "label": "Battery Requirement",
+        "value": "2 AAA batteries"
+      },
+      {
+        "label": "Battery Types",
+        "value": "Alkaline or manganese"
+      },
+      {
+        "label": "Operating Frequency",
+        "value": "Approximately 1–238 Hz"
+      },
+      {
+        "label": "Pulse Duration",
+        "value": "150 µs"
+      },
+      {
+        "label": "Maximum Output Voltage",
+        "value": "70 V (at 500 Ω load)"
+      },
+      {
+        "label": "Weight",
+        "value": "Approximately 100 g (including batteries)"
+      },
+      {
+        "label": "Dimensions",
+        "value": "52 × 112 × 25 mm (W × H × D)"
+      },
+      {
+        "label": "Package Contents",
+        "value": "Main unit, electrode cord, pad holder, Long Life Pads, trial batteries, belt clip, soft pouch and instruction manual"
+      },
+      {
+        "label": "Intended Use",
+        "value": "Home use by adults"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Type",
+        "selectedId": "equipment",
+        "options": [
+          {
+            "id": "equipment",
+            "label": "1 Piece",
+            "price": 237.15,
+            "href": "https://drnutrition.com/en-in/omron-e3-intense-pain-reliever?srsltid=AYCX9vJLJ7dgrWbEuTildDluzSYzUJGTmcxPkiNebJyC-HM_bRXfNmZ_",
+            "images": [
+              {
+                "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177993/Omron_E3-1_d8vatc.webp",
+                "alt": "Omron E3 Intense Pain Reliever"
+              }
+            ],
+            "details": [
+              {
+                "label": "Brand",
+                "value": "Omron"
+              },
+              {
+                "label": "SKU",
+                "value": "4015672110298"
+              },
+              {
+                "label": "Item Number",
+                "value": "AE-00011172"
+              },
+              {
+                "label": "Product Type",
+                "value": "TENS Pain Relief Device"
+              },
+              {
+                "label": "Type",
+                "value": "Equipment"
+              },
+              {
+                "label": "Quantity",
+                "value": "1 Piece"
+              },
+              {
+                "label": "Technology",
+                "value": "Triple Action TENS"
+              },
+              {
+                "label": "Treatment Programmes",
+                "value": "6 preset body-area programmes"
+              },
+              {
+                "label": "Massage Modes",
+                "value": "3 (Tap, Knead, Rub)"
+              },
+              {
+                "label": "Intensity Levels",
+                "value": "15"
+              },
+              {
+                "label": "Treatment Duration",
+                "value": "15 minutes per automatic session"
+              },
+              {
+                "label": "Electrode Pads",
+                "value": "Long Life reusable pads"
+              },
+              {
+                "label": "Pad Reusability",
+                "value": "Up to 150 uses"
+              },
+              {
+                "label": "Display",
+                "value": "Yes"
+              },
+              {
+                "label": "Power Source",
+                "value": "DC 3 V"
+              },
+              {
+                "label": "Battery Requirement",
+                "value": "2 AAA batteries"
+              },
+              {
+                "label": "Battery Types",
+                "value": "Alkaline or manganese"
+              },
+              {
+                "label": "Operating Frequency",
+                "value": "Approximately 1–238 Hz"
+              },
+              {
+                "label": "Pulse Duration",
+                "value": "150 µs"
+              },
+              {
+                "label": "Maximum Output Voltage",
+                "value": "70 V (at 500 Ω load)"
+              },
+              {
+                "label": "Weight",
+                "value": "Approximately 100 g (including batteries)"
+              },
+              {
+                "label": "Dimensions",
+                "value": "52 × 112 × 25 mm (W × H × D)"
+              },
+              {
+                "label": "Package Contents",
+                "value": "Main unit, electrode cord, pad holder, Long Life Pads, trial batteries, belt clip, soft pouch and instruction manual"
+              },
+              {
+                "label": "Intended Use",
+                "value": "Home use by adults"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

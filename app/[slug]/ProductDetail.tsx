@@ -20,13 +20,17 @@ export interface ProductVariantOption {
   image?: string;
   href?: string;
   disabled?: boolean;
-  // per-variant overrides
+
+  // Per-variant overrides
   name?: string;
   price?: number;
   originalPrice?: number;
   discountPercentage?: number;
   offerLabel?: string;
   images?: ProductImage[];
+
+  // Variant-specific attributes
+  details?: { label: string; value: string }[];
 }
 
 export interface ProductVariantGroup {
@@ -993,6 +997,9 @@ export default function ProductDetail({
         m.discountPercentage = o.discountPercentage;
       if (o.offerLabel) m.offerLabel = o.offerLabel;
       if (o.images?.length) m.images = o.images;
+      if (o.details?.length) {
+        m.details = o.details;
+      }
     });
     if (!m.images?.length && product.image)
       m.images = [{ url: product.image, alt: product.name }];
@@ -1002,7 +1009,16 @@ export default function ProductDetail({
   const pickVariant = (g: ProductVariantGroup, o: ProductVariantOption) => {
     setSelected((s) => ({ ...s, [g.name]: o.id }));
     // update the address bar only, with no navigation or refetch
-    if (o.href) window.history.replaceState(null, "", o.href);
+    if (o.href) {
+      const slug = new URL(o.href, window.location.origin).pathname
+        .split("/")
+        .filter(Boolean)
+        .pop();
+
+      if (slug) {
+        window.history.replaceState(null, "", `/${slug}`);
+      }
+    }
   };
   const [mode, setMode] = useState<"delivery" | "pickup">("delivery");
   const [tab, setTab] = useState<TabKey>("description");
