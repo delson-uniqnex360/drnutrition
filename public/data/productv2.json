@@ -192,7 +192,7 @@
             "label": "Box of 12 Pieces",
             "price": 29.0,
             "nutrition": {
-              "size": "330ml",
+              "size": "Box of 12 Pieces",
               "flavor": "Cola",
               "servingSize": "330ml",
               "servingsPerContainer": 12,
@@ -638,6 +638,8 @@
     "price": 75.0,
     "currency": "AED",
     "inStock": true,
+    "howToUseHtml": "<p>Take 10g daily, approximately 30–40 minutes before training, mixed with 200ml of fresh water. Do not consume on rest days or late in the evening to avoid insomnia.</p>",
+    "healthNotesHtml": "<ul><li>Not intended for use by persons under 18 years of age.</li><li>Do not exceed the recommended dose.</li><li>Do not take for more than eight (8) consecutive weeks.</li><li>Consult a licensed physician before using this product, especially if you are taking medication, have a medical condition, are pregnant, nursing, or thinking about becoming pregnant.</li></ul>",
     "productUrl": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
     "descriptionHtml": "BPI Sports One More Rep is a pre-workout supplement in powder form, designed for consumption before exercise. It is part of BPI Sports' sports nutrition range and is intended for individuals looking for a pre-workout supplement as part of their exercise routine.<br><br>Each container provides 25 servings. The product is supplied as a powder for preparation as a pre-workout beverage and is available in multiple flavour variants.",
     "features": [
@@ -1109,7 +1111,7 @@
               "Wrist fastening designed to provide additional wrist stability during training.",
               "Breathable inner lining to help manage moisture and reduce odour.",
               "Suitable for boxing, kickboxing and fitness training sessions.",
-              "Available in a 10 OZ variant."
+              "Available in a 12 OZ variant."
             ],
             "price": 132.0,
             "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
@@ -1175,7 +1177,7 @@
               "Wrist fastening designed to provide additional wrist stability during training.",
               "Breathable inner lining to help manage moisture and reduce odour.",
               "Suitable for boxing, kickboxing and fitness training sessions.",
-              "Available in a 12 OZ variant."
+              "Available in a 10 OZ variant."
             ],
             "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
             "images": [
@@ -1283,6 +1285,8 @@
       "Compact, battery-powered design for convenient home use and portability.",
       "Includes a belt clip and soft pouch for convenient carrying and storage."
     ],
+    "howToUseHtml": "<ol><li>Attach the pads to clean, dry skin near the area of pain, avoiding broken or irritated skin.</li><li>Select the appropriate preset program for the targeted body area and adjust the intensity level according to your comfort.</li><li>Use for the recommended session time while remaining relaxed and still.</li><li>Remove the pads after use and store the device properly.</li></ol>",
+    "healthNotesHtml": "<ul><li>For external use only.</li><li>Do not use on open wounds, irritated skin, or swollen areas without medical advice.</li><li>Avoid use if you have a pacemaker or other implanted medical devices unless approved by a doctor.</li><li>Do not use while sleeping, driving, or operating machinery.</li><li>Discontinue use if discomfort occurs.</li><li>Keep out of reach of children.</li><li>If pain persists, consult a healthcare professional.</li></ul>",
     "nutritionAvailable": false,
     "details": [
       {

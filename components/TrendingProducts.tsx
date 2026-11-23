@@ -142,7 +142,7 @@ function ProductCard({
       <div className="flex-1">
         {/* Product image */}
         <div className="relative mb-2">
-          <Link href={product.href} className="block no-underline">
+          <Link href={""} className="block no-underline">
             <div className="w-full h-52 flex items-center justify-center overflow-hidden border-b border-gray-100 relative">
               <Image
                 src={product.image}
@@ -229,7 +229,7 @@ function ProductCard({
         </div>
 
         {/* Product name */}
-        <Link href={product.href}>
+        <Link href={""}>
           <h3 className="text-gray-800 font-medium text-sm mb-1 line-clamp-2 leading-tight px-1.5">
             {product.name}
           </h3>

@@ -13,13 +13,13 @@ const banners = [
     name: "vichy",
     image:
       "https://media.drnutrition.com/media/gb1KXtJ8IfOmzVRyQqZsTXXsfqVtxFTM81IWm3ar.jpg",
-    href: "/brands/vichy",
+    href: "",
   },
   {
     name: "solaray",
     image:
       "https://media.drnutrition.com/media/T65zKbQi9XSINT0GlIyBlCZt3xa6duy2Tyskmuea.jpg",
-    href: "/brands/solaray",
+    href: "",
   },
 ];
 

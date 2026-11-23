@@ -4,9 +4,7 @@ export default function WhatsAppBanner() {
   return (
     <section className="w-full lg:mt-4">
       <a
-        href="https://www.whatsapp.com/channel/0029VbAN52nF6smtguZg9R1U"
-        target="_blank"
-        rel="noopener noreferrer"
+        href=""
         className="block"
       >
         <div className="relative w-full aspect-[3.66667/1] lg:rounded-lg overflow-hidden">
