@@ -6,7 +6,26 @@
       "name": "Laperva",
       "href": ""
     },
-    "breadcrumbs": [],
+    "categories": [
+      {
+        "name": "Healthy Foods",
+        "href": "/en-in/categories/healthy-foods"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "href": ""
+      },
+      {
+        "name": "Healthy Foods",
+        "href": "/en-in/categories/healthy-foods"
+      },
+      {
+        "name": "Snacks",
+        "href": "/en-in/categories/snacks"
+      }
+    ],
     "tags": [],
     "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177303/Keto_Cola-1piece-1_sssxg9.webp",
     "images": [
@@ -295,7 +314,26 @@
       "name": "Farah Secrets",
       "href": ""
     },
-    "breadcrumbs": [],
+    "categories": [
+      {
+        "name": "Sports Nutrition",
+        "href": "/en-in/categories/sports-nutrition"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Sports Nutrition",
+        "href": "/en-in/categories/sports-nutrition"
+      },
+      {
+        "name": "Creatine",
+        "href": "/en-in/categories/creatine"
+      }
+    ],
     "tags": [],
     "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
     "images": [
@@ -509,7 +547,26 @@
       "name": "bpi Sports",
       "href": ""
     },
-    "breadcrumbs": [],
+    "categories": [
+      {
+        "name": "Sports Nutrition",
+        "href": "/en-in/categories/sports-nutrition"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Sports Nutrition",
+        "href": "/categories/sports-nutrition"
+      },
+      {
+        "name": "Pre-Workout",
+        "href": "/categories/pre-workout"
+      }
+    ],
     "tags": [],
     "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177797/BPI_Sports-Berry-Splash-1_ax6oln.webp",
     "images": [
@@ -879,7 +936,26 @@
       "name": "Body Builder",
       "href": ""
     },
-    "breadcrumbs": [],
+    "categories": [
+      {
+        "name": "Gym Essentials",
+        "href": "/categories/gym-essentials"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Gym Essentials",
+        "href": "/categories/gym-essentials"
+      },
+      {
+        "name": "Gym Clothing",
+        "href": "/categories/gym-clothing"
+      }
+    ],
     "tags": [],
     "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177925/Boxing_Gloves-10OZ-1_pdodo9.webp",
     "images": [
@@ -1056,7 +1132,26 @@
       "name": "Omron",
       "href": ""
     },
-    "breadcrumbs": [],
+    "categories": [
+      {
+        "name": "Fitness Equipment",
+        "href": "/categories/fitness-equipment"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Fitness Equipment",
+        "href": "/categories/fitness-equipment"
+      },
+      {
+        "name": "Massage Devices",
+        "href": "/categories/massage-devices"
+      }
+    ],
     "tags": [],
     "image": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177993/Omron_E3-1_d8vatc.webp",
     "images": [

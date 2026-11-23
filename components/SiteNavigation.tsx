@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CategoriesMenu from "@/components/categories/CategoriesMenu";
 
 const announcements = [
   "GLP-1 Friendly Top Picks · Shop Now",
@@ -134,16 +135,20 @@ export default function SiteNavigation() {
           </div>
 
           {/* Desktop category navigation */}
-          <nav className="hidden items-center justify-between gap-5 overflow-x-auto pb-5 text-sm text-gray-800 lg:flex">
-            {categories.map((item) => (
-              <Link
-                key={item}
-                href="/"
-                className="shrink-0 whitespace-nowrap transition-colors hover:text-purple-800"
-              >
-                {item}
-              </Link>
-            ))}
+          <nav className="relative hidden items-center justify-between gap-5 pb-5 text-sm text-gray-800 lg:flex">
+            {categories.map((item) =>
+              item === "All Categories" ? (
+                <CategoriesMenu key={item} label={item} />
+              ) : (
+                <Link
+                  key={item}
+                  href="/"
+                  className="shrink-0 whitespace-nowrap transition-colors hover:text-purple-800"
+                >
+                  {item}
+                </Link>
+              ),
+            )}
           </nav>
         </div>
       </header>
@@ -162,7 +167,6 @@ export default function SiteNavigation() {
             }`}
           >
             <span className="text-xl leading-none">{item.icon}</span>
-
             <span>{item.label}</span>
           </Link>
         ))}

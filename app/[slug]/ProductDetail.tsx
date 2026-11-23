@@ -36,6 +36,11 @@ export interface ProductVariantOption {
   nutrition?: NutritionFacts;
 }
 
+export interface ProductCategory {
+  name: string;
+  href: string;
+}
+
 export interface ProductVariantGroup {
   name: string; // "Size", "Flavor"
   options: ProductVariantOption[];
@@ -87,6 +92,8 @@ export interface ProductDetailData {
   name: string;
   brand?: { name: string; href: string; image?: string };
   breadcrumbs: { name: string; href: string }[];
+  // Actual product categories
+  categories?: ProductCategory[];
   tags?: string[]; // grey pills under the title
   image?: string;
   images: ProductImage[];
@@ -126,7 +133,7 @@ export interface ProductDetailProps {
   onFulfilmentChange?: (mode: "delivery" | "pickup") => void;
 }
 
-const defaultLabels = {
+export const defaultLabels = {
   size: "Size",
   delivery: "Delivery",
   pickup: "Store pickup",
@@ -610,7 +617,7 @@ function NutritionPanel({
 /* Product card + carousel                                             */
 /* ------------------------------------------------------------------ */
 
-function ProductCard({
+export function ProductCard({
   p,
   L,
   onAdd,
