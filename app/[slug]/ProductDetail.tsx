@@ -32,6 +32,9 @@ export interface ProductVariantOption {
   // Variant-specific attributes
   details?: { label: string; value: string }[];
 
+  descriptionHtml?: string;
+  features?: string[];
+
   // Variant-specific nutrition
   nutrition?: NutritionFacts;
 }
@@ -107,6 +110,7 @@ export interface ProductDetailData {
   soldRecently?: string; // "82+ sold recently"
   offerLabel?: string;
   descriptionHtml?: string;
+  features?: string[];
   howToUseHtml?: string;
   healthNotesHtml?: string;
   details?: { label: string; value: string }[]; // "Product Details" tab
@@ -1051,6 +1055,20 @@ export default function ProductDetail({
 
   const add = () => onAddToCart?.(p, 1);
 
+  const firstVariantGroup = product.variants?.[0];
+
+  const firstVariant =
+    firstVariantGroup?.options?.find(
+      (option) => option.id === firstVariantGroup.selectedId,
+    ) ?? firstVariantGroup?.options?.[0];
+
+  const descriptionHtml =
+    firstVariant?.descriptionHtml || product.descriptionHtml;
+
+  const features = firstVariant?.features?.length
+    ? firstVariant.features
+    : product.features;
+
   const tabs: {
     key: TabKey;
     label: string;
@@ -1062,8 +1080,29 @@ export default function ProductDetail({
       key: "description",
       label: L.description,
       icon: <IconFile />,
-      html: p.descriptionHtml,
-      hasContent: !!p.descriptionHtml,
+      html: `
+    ${descriptionHtml || ""}
+    ${
+      features?.length
+        ? `
+          <h2 style="
+            color: rgb(17, 24, 39);
+            margin-top: 2em;
+            margin-bottom: 1em;
+            font-size: 1.5em;
+            font-weight: 700;
+            line-height: 1.33333;
+          ">
+            Features
+          </h2>
+          <ul>
+            ${features.map((feature) => `<li>${feature}</li>`).join("")}
+          </ul>
+        `
+        : ""
+    }
+  `,
+      hasContent: !!descriptionHtml || !!features?.length,
     },
     {
       key: "howToUse",

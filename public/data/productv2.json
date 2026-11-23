@@ -9,7 +9,7 @@
     "categories": [
       {
         "name": "Healthy Foods",
-        "href": "/en-in/categories/healthy-foods"
+        "href": "/categories/healthy-foods"
       }
     ],
     "breadcrumbs": [
@@ -19,11 +19,11 @@
       },
       {
         "name": "Healthy Foods",
-        "href": "/en-in/categories/healthy-foods"
+        "href": "/categories/healthy-foods"
       },
       {
         "name": "Snacks",
-        "href": "/en-in/categories/snacks"
+        "href": "/categories/snacks"
       }
     ],
     "tags": [],
@@ -66,6 +66,8 @@
       "Sweetened with stevia.",
       "Marketed as a zero-calorie beverage."
     ],
+    "howToUseHtml": "<p>Consume 1 can prior to or during exercise.</p>",
+    "healthNotesHtml": "<ul><li>Do not exceed recommended doses.</li><li>Do not use during breastfeeding, pregnancy, or for children.</li><li>Store the product in a cool, dry place in a well-sealed container.</li><li>The product is intended for adults only and should be used in a varied, balanced diet and healthy lifestyle.</li><li>If you are under medical supervision or taking any prescription medications, please consult your doctor before use.</li></ul>",
     "nutritionAvailable": true,
     "details": [
       {
@@ -189,7 +191,31 @@
             "id": "12-piece",
             "label": "Box of 12 Pieces",
             "price": 29.0,
-            "nutrition": null,
+            "nutrition": {
+              "size": "330ml",
+              "flavor": "Cola",
+              "servingSize": "330ml",
+              "servingsPerContainer": 12,
+              "rows": [
+                { "name": "Calories", "amount": "0" },
+                { "name": "Total Fat", "amount": "0g" },
+                { "name": "Saturated Fat", "amount": "0g" },
+                { "name": "Trans Fat", "amount": "0g" },
+                { "name": "Cholesterol", "amount": "0mg" },
+                { "name": "Total Carbohydrate", "amount": "0g" },
+                { "name": "Total Sugars", "amount": "0g" },
+                { "name": "Added Sugars", "amount": "0g" },
+                { "name": "Dietary Fiber", "amount": "0g" },
+                { "name": "Protein", "amount": "0g" },
+                { "name": "Sodium", "amount": "10.6mg", "dv": "0.5%" },
+                { "name": "BCAA BLEND", "amount": "100mg" },
+                { "name": "L-Leucine", "amount": "50mg", "indent": true },
+                { "name": "L-Isoleucine", "amount": "25mg", "indent": true },
+                { "name": "L-Valine", "amount": "25mg", "indent": true },
+                { "name": "Magnesium", "amount": "10mg", "dv": "2.4%" }
+              ],
+              "ingredients": "Water, Carbon Dioxide, Colour (E150d), Acidifier (E338), Sweeteners (Sucralose, Stevia), Preservative (E211), L-leucine, Magnesium Citrate, L-isoleucine, L-valine, Cola Natural Flavouring."
+            },
             "href": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
             "images": [
               {
@@ -317,7 +343,7 @@
     "categories": [
       {
         "name": "Sports Nutrition",
-        "href": "/en-in/categories/sports-nutrition"
+        "href": "/categories/sports-nutrition"
       }
     ],
     "breadcrumbs": [
@@ -327,11 +353,11 @@
       },
       {
         "name": "Sports Nutrition",
-        "href": "/en-in/categories/sports-nutrition"
+        "href": "/categories/sports-nutrition"
       },
       {
         "name": "Creatine",
-        "href": "/en-in/categories/creatine"
+        "href": "/categories/creatine"
       }
     ],
     "tags": [],
@@ -346,7 +372,7 @@
     "currency": "AED",
     "inStock": true,
     "productUrl": "https://drnutrition.com/en-ae/farah-secrets-creatine",
-    "descriptionHtml": "Farah Secrets Creatine Monohydrate is a micronized creatine supplement formulated for sports nutrition and fitness use. This product provides creatine monohydrate in a 300 g container.<br><br>The formula features micronized creatine monohydrate, a commonly used ingredient in sports nutrition supplements. Each serving provides 5 g of creatine monohydrate. The 300 g container provides 60 servings, with a serving size of one 5 g scoop.<br><br>Farah Secrets Creatine is designed for athletes, bodybuilders and fitness enthusiasts looking to include creatine monohydrate in their sports nutrition routine.",
+    "descriptionHtml": "Farah Secrets Creatine Monohydrate is a micronized creatine supplement formulated for sports nutrition and fitness use. This product provides creatine monohydrate in a 300 g container.<br><br>The formula features micronized creatine monohydrate, a commonly used ingredient in sports nutrition supplements. Each serving provides 5 g of creatine monohydrate. The 300 g container provides 60 servings, with a serving size of one 5 g scoop.<br><br>Farah Secrets Creatine is designed for athletes, bodybuilders and fitness enthusiasts looking to include creatine monohydrate in their sports nutrition routine.<br><br>The product is presented as a micronized creatine monohydrate formula, with a clearly identified ingredient and serving quantity in the available product information.",
     "features": [
       "Contains micronized creatine monohydrate.",
       "Provides 5 g of creatine monohydrate per serving.",
@@ -354,6 +380,8 @@
       "Offers a convenient scoop-based serving format.",
       "Designed for sports nutrition and fitness supplementation."
     ],
+    "howToUseHtml": "<p>Mix one rounded teaspoon of Farah Secrets Creatine Powder with 8 Oz of Water or Your Favorite Beverage, or use as directed by a Physician or Licensed Nutritionist.</p>",
+    "healthNotesHtml": "<ul><li>Before Using This Product, Please Consider the Following Points:</li><li>Kidney or Liver Conditions: People With Kidney or Liver Disease, or a Medical History Related to These Conditions, Should Not Use Creatine Unless Under Direct Medical Supervision, as Creatine is Excreted Through the Kidneys.</li><li>Pregnancy and Breastfeeding: There Are Not Enough Studies Confirming the Safety of Creatine During Pregnancy or Breastfeeding, So it is Recommended to Avoid Use During These Periods.</li><li>Children Under 18: This Product is Intended for Adults and is Not Recommended for Minors Unless Under Specialized Medical Supervision.</li><li>Medication Interactions: If You Are Taking Prescription Medications, Consult Your Doctor Before Adding Any Dietary Supplement to Your Daily Routine.</li><li>Allergies: Although the Product Contains Only One Active Ingredient, Creatine, It is Recommended to Check the Product Label and Ensure There Are No Known Allergies.</li></ul>",
     "nutritionAvailable": true,
     "details": [
       {
@@ -411,6 +439,8 @@
             "label": "Orange",
             "price": 63.0,
             "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
+            "descriptionHtml": "Its orange flavour provides a flavoured alternative to unflavored creatine products.",
+            "features": ["Features an orange flavour."],
             "images": [
               {
                 "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
@@ -483,12 +513,28 @@
             "label": "Unflavored",
             "price": 63.0,
             "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
+            "descriptionHtml": "Its unflavored option provides a simple alternative to flavoured creatine products.",
+            "features": ["Features an unflavored option."],
             "images": [
               {
                 "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Unflavored-1_qckwtd.webp",
                 "alt": "Farah Secrets Creatine Unflavored"
               }
             ],
+            "nutrition": {
+              "size": "300 g",
+              "flavor": "Unflavored",
+              "servingSize": "1 scoop (5g)",
+              "servingsPerContainer": 60,
+              "rows": [
+                {
+                  "name": "Creatine Monohydrate",
+                  "amount": "5g",
+                  "dv": "**"
+                }
+              ],
+              "ingredients": "Creatine Monohydrate"
+            },
             "details": [
               {
                 "label": "Brand",
@@ -550,7 +596,7 @@
     "categories": [
       {
         "name": "Sports Nutrition",
-        "href": "/en-in/categories/sports-nutrition"
+        "href": "/categories/sports-nutrition"
       }
     ],
     "breadcrumbs": [
