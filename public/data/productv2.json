@@ -439,8 +439,15 @@
             "label": "Orange",
             "price": 63.0,
             "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
-            "descriptionHtml": "Its orange flavour provides a flavoured alternative to unflavored creatine products.",
-            "features": ["Features an orange flavour."],
+            "descriptionHtml": "<p>Farah Secrets Creatine Monohydrate is a micronized creatine supplement formulated for sports nutrition and fitness use. This product provides creatine monohydrate in a 300 g container.</p><p>The formula features micronized creatine monohydrate, a commonly used ingredient in sports nutrition supplements. Each serving provides 5 g of creatine monohydrate, according to the available listing matching this product's GTIN. The 300 g container provides 60 servings, with a serving size of one 5 g scoop.</p><p>Farah Secrets Creatine is designed for athletes, bodybuilders and fitness enthusiasts looking to include creatine monohydrate in their sports nutrition routine. Its orange flavour provides a flavoured alternative to Unflavored creatine products.</p><p>The product is presented as a micronized creatine monohydrate formula, with a clearly identified ingredient and serving quantity in the available product information.</p>",
+            "features": [
+              "Contains micronized creatine monohydrate.",
+              "Provides 5 g of creatine monohydrate per serving.",
+              "Features an orange flavour.",
+              "Supplied in a 300 g container with 60 servings.",
+              "Offers a convenient scoop-based serving format.",
+              "Designed for sports nutrition and fitness supplementation."
+            ],
             "images": [
               {
                 "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Orange-1_p6bgy6.webp",
@@ -513,8 +520,15 @@
             "label": "Unflavored",
             "price": 63.0,
             "href": "https://drnutrition.com/en-ae/farah-secrets-creatine",
-            "descriptionHtml": "Its unflavored option provides a simple alternative to flavoured creatine products.",
-            "features": ["Features an unflavored option."],
+            "descriptionHtml": "<p>Farah Secrets Creatine Monohydrate is a micronized creatine supplement formulated for sports nutrition and fitness use. This product provides creatine monohydrate in a 300 g container.</p><p>The formula features micronized creatine monohydrate, a commonly used ingredient in sports nutrition supplements. Each serving provides 5 g of creatine monohydrate, according to the available listing matching this product's GTIN. The 300 g container provides 60 servings, with a serving size of one 5 g scoop.</p><p>Farah Secrets Creatine is designed for athletes, bodybuilders and fitness enthusiasts looking to include creatine monohydrate in their sports nutrition routine. Its unflavored flavour provides a flavoured alternative to orange creatine products.</p><p>The product is presented as a micronized creatine monohydrate formula, with a clearly identified ingredient and serving quantity in the available product information.</p>",
+            "features": [
+              "Contains micronized creatine monohydrate.",
+              "Provides 5 g of creatine monohydrate per serving.",
+              "Features an unflavored flavour.",
+              "Supplied in a 300 g container with 60 servings.",
+              "Offers a convenient scoop-based serving format.",
+              "Designed for sports nutrition and fitness supplementation."
+            ],
             "images": [
               {
                 "url": "https://res.cloudinary.com/dgpvbqk9e/image/upload/v1795177636/Farah_Secrets_Creatine-Unflavored-1_qckwtd.webp",
@@ -667,6 +681,14 @@
                 "alt": "BPI Sports One More Rep Berry Splash"
               }
             ],
+            "descriptionHtml": "<p>BPI Sports One More Rep is a pre-workout supplement in powder form, designed for consumption before exercise. It is available in Berry Splash flavour and provides 25 servings per container.</p><p>Developed for individuals looking for a pre-workout supplement as part of their exercise routine, One More Rep belongs to BPI Sports' sports nutrition range. Its pre-workout positioning makes it relevant to customers searching for workout supplements in powder form.</p><p>The Berry Splash variant offers a flavoured option for customers who prefer a Berry-flavoured pre-workout supplement. Each container is identified as providing 25 servings, making it suitable for customers looking for a multi-serving pre-workout product.</p>",
+            "features": [
+              "Pre-workout supplement designed for use before exercise.",
+              "Berry Splash flavour.",
+              "Provides 25 servings per container.",
+              "Powder format for preparation as a pre-workout beverage.",
+              "Part of the BPI Sports sports nutrition range."
+            ],
             "nutrition": {
               "size": "25 servings",
               "flavor": "Berry Splash",
@@ -765,6 +787,15 @@
             "id": "fruit-punch",
             "label": "Fruit Punch",
             "price": 73.0,
+
+            "descriptionHtml": "<p>BPI Sports One More Rep is a pre-workout supplement in powder form, designed for consumption before exercise. It is available in Fruit Punch flavour and provides 25 servings per container.</p><p>Developed for individuals looking for a pre-workout supplement as part of their exercise routine, One More Rep belongs to BPI Sports' sports nutrition range. Its pre-workout positioning makes it relevant to customers searching for workout supplements in powder form.</p><p>The Fruit Punch variant offers a flavoured option for customers who prefer a fruit-flavoured pre-workout supplement. Each container is identified as providing 25 servings, making it suitable for customers looking for a multi-serving pre-workout product.</p>",
+            "features": [
+              "Pre-workout supplement designed for use before exercise.",
+              "Fruit Punch flavour.",
+              "Provides 25 servings per container.",
+              "Powder format for preparation as a pre-workout beverage.",
+              "Part of the BPI Sports sports nutrition range."
+            ],
             "href": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
             "images": [
               {
@@ -869,6 +900,14 @@
           {
             "id": "raspberry",
             "label": "Raspberry",
+            "descriptionHtml": "<p>BPI Sports One More Rep is a pre-workout supplement in powder form, designed for consumption before exercise. It is available in Raspberry flavour and provides 25 servings per container.</p><p>Developed for individuals looking for a pre-workout supplement as part of their exercise routine, One More Rep belongs to BPI Sports' sports nutrition range. Its pre-workout positioning makes it relevant to customers searching for workout supplements in powder form.</p><p>The Raspberry Punch variant offers a flavoured option for customers who prefer a Raspberry-flavoured pre-workout supplement. Each container is identified as providing 25 servings, making it suitable for customers looking for a multi-serving pre-workout product.</p>",
+            "features": [
+              "Pre-workout supplement designed for use before exercise.",
+              "Raspberry flavour.",
+              "Provides 25 servings per container.",
+              "Powder format for preparation as a pre-workout beverage.",
+              "Part of the BPI Sports sports nutrition range."
+            ],
             "price": 78.0,
             "href": "https://drnutrition.com/en-ae/bpi-sports-one-more-rep-25-fruit-punch",
             "images": [
@@ -1062,6 +1101,16 @@
           {
             "id": "10-oz",
             "label": "10 OZ",
+            "descriptionHtml": "<p>Body Builder Boxing Gloves, 10 OZ, are designed for boxing, kickboxing and fitness training sessions. Made with durable synthetic leather, these boxing gloves combine multi-layer foam padding, an adjustable Velcro wrist strap and a breathable inner lining to support comfort and hand protection during training.</p><p>The synthetic leather outer material provides a durable construction suitable for regular training activities. Multi-layer foam padding is incorporated to help absorb impact during punching exercises, while the adjustable Velcro strap provides a secure fit around the wrist and additional wrist stability.</p><p>The breathable inner lining helps manage moisture inside the gloves and supports a cooler, more comfortable feel during workouts. Its ventilated construction is also intended to help reduce moisture and odour.</p><p>With their combination of synthetic leather construction, padded design and adjustable wrist fastening, Body Builder Boxing Gloves are suitable for boxing, kickboxing and general fitness training. The selected variant is 10 OZ.</p>",
+            "features": [
+              "Durable synthetic leather construction for regular training activities.",
+              "Multi-layer foam padding designed to help absorb impact during punching exercises.",
+              "Adjustable Velcro wrist strap for a secure and comfortable fit.",
+              "Wrist fastening designed to provide additional wrist stability during training.",
+              "Breathable inner lining to help manage moisture and reduce odour.",
+              "Suitable for boxing, kickboxing and fitness training sessions.",
+              "Available in a 10 OZ variant."
+            ],
             "price": 132.0,
             "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
             "images": [
@@ -1117,6 +1166,17 @@
             "id": "12-oz",
             "label": "12 OZ",
             "price": 132.0,
+
+            "descriptionHtml": "<p>Body Builder Boxing Gloves, 12 OZ, are designed for boxing, kickboxing and fitness training sessions. Made with durable synthetic leather, these boxing gloves combine multi-layer foam padding, an adjustable Velcro wrist strap and a breathable inner lining to support comfort and hand protection during training.</p><p>The synthetic leather outer material provides a durable construction suitable for regular training activities. Multi-layer foam padding is incorporated to help absorb impact during punching exercises, while the adjustable Velcro strap provides a secure fit around the wrist and additional wrist stability.</p><p>The breathable inner lining helps manage moisture inside the gloves and supports a cooler, more comfortable feel during workouts. Its ventilated construction is also intended to help reduce moisture and odour.</p><p>With their combination of synthetic leather construction, padded design and adjustable wrist fastening, Body Builder Boxing Gloves are suitable for boxing, kickboxing and general fitness training. The selected variant is 12 OZ.</p>",
+            "features": [
+              "Durable synthetic leather construction for regular training activities.",
+              "Multi-layer foam padding designed to help absorb impact during punching exercises.",
+              "Adjustable Velcro wrist strap for a secure and comfortable fit.",
+              "Wrist fastening designed to provide additional wrist stability during training.",
+              "Breathable inner lining to help manage moisture and reduce odour.",
+              "Suitable for boxing, kickboxing and fitness training sessions.",
+              "Available in a 12 OZ variant."
+            ],
             "href": "https://drnutrition.com/en-ae/body-builder-boxing-gloves-10-oz",
             "images": [
               {

@@ -1015,7 +1015,13 @@ export default function ProductDetail({
         m.details = o.details;
       }
 
-      m.nutrition = o.nutrition;
+      // NEW: variant-level description and features
+      if (o.descriptionHtml) m.descriptionHtml = o.descriptionHtml;
+      if (o.features?.length) m.features = o.features;
+
+      // only override when the option has nutrition, so another group
+      // doesn't wipe it out
+      if (o.nutrition) m.nutrition = o.nutrition;
     });
     if (!m.images?.length && product.image)
       m.images = [{ url: product.image, alt: product.name }];
@@ -1055,19 +1061,8 @@ export default function ProductDetail({
 
   const add = () => onAddToCart?.(p, 1);
 
-  const firstVariantGroup = product.variants?.[0];
-
-  const firstVariant =
-    firstVariantGroup?.options?.find(
-      (option) => option.id === firstVariantGroup.selectedId,
-    ) ?? firstVariantGroup?.options?.[0];
-
-  const descriptionHtml =
-    firstVariant?.descriptionHtml || product.descriptionHtml;
-
-  const features = firstVariant?.features?.length
-    ? firstVariant.features
-    : product.features;
+  const descriptionHtml = p.descriptionHtml;
+  const features = p.features;
 
   const tabs: {
     key: TabKey;
