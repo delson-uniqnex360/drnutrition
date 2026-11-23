@@ -31,6 +31,9 @@ export interface ProductVariantOption {
 
   // Variant-specific attributes
   details?: { label: string; value: string }[];
+
+  // Variant-specific nutrition
+  nutrition?: NutritionFacts;
 }
 
 export interface ProductVariantGroup {
@@ -1000,6 +1003,8 @@ export default function ProductDetail({
       if (o.details?.length) {
         m.details = o.details;
       }
+
+      m.nutrition = o.nutrition;
     });
     if (!m.images?.length && product.image)
       m.images = [{ url: product.image, alt: product.name }];

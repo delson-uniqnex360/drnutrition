@@ -139,12 +139,38 @@
                 "label": "BCAA Content",
                 "value": "100 mg"
               }
-            ]
+            ],
+            "nutrition": {
+              "size": "330ml",
+              "flavor": "Cola",
+              "servingSize": "330ml",
+              "servingsPerContainer": 1,
+              "rows": [
+                { "name": "Calories", "amount": "0" },
+                { "name": "Total Fat", "amount": "0g" },
+                { "name": "Saturated Fat", "amount": "0g" },
+                { "name": "Trans Fat", "amount": "0g" },
+                { "name": "Cholesterol", "amount": "0mg" },
+                { "name": "Total Carbohydrate", "amount": "0g" },
+                { "name": "Total Sugars", "amount": "0g" },
+                { "name": "Added Sugars", "amount": "0g" },
+                { "name": "Dietary Fiber", "amount": "0g" },
+                { "name": "Protein", "amount": "0g" },
+                { "name": "Sodium", "amount": "10.6mg", "dv": "0.5%" },
+                { "name": "BCAA BLEND", "amount": "100mg" },
+                { "name": "L-Leucine", "amount": "50mg", "indent": true },
+                { "name": "L-Isoleucine", "amount": "25mg", "indent": true },
+                { "name": "L-Valine", "amount": "25mg", "indent": true },
+                { "name": "Magnesium", "amount": "10mg", "dv": "2.4%" }
+              ],
+              "ingredients": "Water, Carbon Dioxide, Colour (E150d), Acidifier (E338), Sweeteners (Sucralose, Stevia), Preservative (E211), L-leucine, Magnesium Citrate, L-isoleucine, L-valine, Cola Natural Flavouring."
+            }
           },
           {
             "id": "12-piece",
             "label": "Box of 12 Pieces",
             "price": 29.0,
+            "nutrition": null,
             "href": "https://drnutrition.com/en-ae/laperva-keto-cola-cola-1-piece",
             "images": [
               {
@@ -231,7 +257,32 @@
                 "label": "BCAA Content",
                 "value": "100 mg"
               }
-            ]
+            ],
+            "nutrition": {
+              "size": "Box of 24 Pieces",
+              "flavor": "Cola",
+              "servingSize": "330ml",
+              "servingsPerContainer": 24,
+              "rows": [
+                { "name": "Calories", "amount": "0" },
+                { "name": "Total Fat", "amount": "0g" },
+                { "name": "Saturated Fat", "amount": "0g" },
+                { "name": "Trans Fat", "amount": "0g" },
+                { "name": "Cholesterol", "amount": "0mg" },
+                { "name": "Total Carbohydrate", "amount": "0g" },
+                { "name": "Total Sugars", "amount": "0g" },
+                { "name": "Added Sugars", "amount": "0g" },
+                { "name": "Dietary Fiber", "amount": "0g" },
+                { "name": "Protein", "amount": "0g" },
+                { "name": "Sodium", "amount": "10.6mg", "dv": "0.5%" },
+                { "name": "BCAA BLEND", "amount": "100mg" },
+                { "name": "L-Leucine", "amount": "50mg", "indent": true },
+                { "name": "L-Isoleucine", "amount": "25mg", "indent": true },
+                { "name": "L-Valine", "amount": "25mg", "indent": true },
+                { "name": "Magnesium", "amount": "10mg", "dv": "2.4%" }
+              ],
+              "ingredients": "Water, Carbon Dioxide, Colour (E150d), Acidifier (E338), Sweeteners (Sucralose, Stevia), Preservative (E211), L-leucine, Magnesium Citrate, L-isoleucine, L-valine, Cola Natural Flavouring."
+            }
           }
         ]
       }
@@ -302,6 +353,18 @@
     ],
     "variants": [
       {
+        "name": "Size",
+        "selectedId": "300g",
+        "options": [
+          {
+            "id": "300g",
+            "label": "300 g",
+            "price": 63.0,
+            "href": "https://drnutrition.com/en-ae/farah-secrets-creatine"
+          }
+        ]
+      },
+      {
         "name": "Flavor",
         "selectedId": "orange",
         "options": [
@@ -316,6 +379,20 @@
                 "alt": "Farah Secrets Creatine Orange"
               }
             ],
+            "nutrition": {
+              "size": "300 g",
+              "flavor": "Orange",
+              "servingSize": "1 scoop (5g)",
+              "servingsPerContainer": 60,
+              "rows": [
+                {
+                  "name": "Creatine Monohydrate",
+                  "amount": "5g",
+                  "dv": "**"
+                }
+              ],
+              "ingredients": "Creatine Monohydrate"
+            },
             "details": [
               {
                 "label": "Brand",
@@ -487,6 +564,69 @@
                 "alt": "BPI Sports One More Rep Berry Splash"
               }
             ],
+            "nutrition": {
+              "size": "25 servings",
+              "flavor": "Berry Splash",
+              "servingSize": "1 Scoop (10g)",
+              "servingsPerContainer": 25,
+              "rows": [
+                {
+                  "name": "Niacin (Vitamin B3 as nicotinic acid)",
+                  "amount": "30mg",
+                  "dv": "188%"
+                },
+                {
+                  "name": "Sodium (as Disodium phosphate)",
+                  "amount": "128gmg",
+                  "dv": "6%"
+                },
+                {
+                  "name": "L-Citrulline",
+                  "amount": "3g"
+                },
+                {
+                  "name": "L-Carnitine L-Tartrate",
+                  "amount": "1g"
+                },
+                {
+                  "name": "Beetroot (powder)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "Trimethylglycine (TMG) (as betaine anhydrous)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "N-Acetyl-L-Cysteine",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "ONE MORE REP® ENERGY BLEND (Proprietary)",
+                  "amount": "454mg"
+                },
+                {
+                  "name": "Caffeine anhydrous",
+                  "amount": ""
+                },
+                {
+                  "name": "Theobromine",
+                  "amount": ""
+                },
+                {
+                  "name": "Phosphatidylcholine",
+                  "amount": ""
+                },
+                {
+                  "name": "Himalayan pink salt",
+                  "amount": ""
+                },
+                {
+                  "name": "Yohimbie (bark) extract (std. to 2% Yohimbine)",
+                  "amount": ""
+                }
+              ],
+              "ingredients": "Maltodextrin, natural and artificial flavors, citric acid, silica, malic acid, sucralose, and acesulfame K."
+            },
             "details": [
               {
                 "label": "Brand",
@@ -529,6 +669,69 @@
                 "alt": "BPI Sports One More Rep Fruit Punch"
               }
             ],
+            "nutrition": {
+              "size": "25 servings",
+              "flavor": "Fruit Punch",
+              "servingSize": "1 Scoop (10g)",
+              "servingsPerContainer": 25,
+              "rows": [
+                {
+                  "name": "Niacin (Vitamin B3 as nicotinic acid)",
+                  "amount": "30mg",
+                  "dv": "188%"
+                },
+                {
+                  "name": "Sodium (as Disodium phosphate)",
+                  "amount": "128gmg",
+                  "dv": "6%"
+                },
+                {
+                  "name": "L-Citrulline",
+                  "amount": "3g"
+                },
+                {
+                  "name": "L-Carnitine L-Tartrate",
+                  "amount": "1g"
+                },
+                {
+                  "name": "Beetroot (powder)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "Trimethylglycine (TMG) (as betaine anhydrous)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "N-Acetyl-L-Cysteine",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "ONE MORE REP® ENERGY BLEND (Proprietary)",
+                  "amount": "454mg"
+                },
+                {
+                  "name": "Caffeine anhydrous",
+                  "amount": ""
+                },
+                {
+                  "name": "Theobromine",
+                  "amount": ""
+                },
+                {
+                  "name": "Phosphatidylcholine",
+                  "amount": ""
+                },
+                {
+                  "name": "Himalayan pink salt",
+                  "amount": ""
+                },
+                {
+                  "name": "Yohimbie (bark) extract (std. to 2% Yohimbine)",
+                  "amount": ""
+                }
+              ],
+              "ingredients": "Maltodextrin, natural and artificial flavors, citric acid, silica, malic acid, sucralose, and acesulfame K."
+            },
             "details": [
               {
                 "label": "Brand",
@@ -571,6 +774,69 @@
                 "alt": "BPI Sports One More Rep Raspberry"
               }
             ],
+            "nutrition": {
+              "size": "25 servings",
+              "flavor": "Raspberry",
+              "servingSize": "1 Scoop (10g)",
+              "servingsPerContainer": 25,
+              "rows": [
+                {
+                  "name": "Niacin (Vitamin B3 as nicotinic acid)",
+                  "amount": "30mg",
+                  "dv": "188%"
+                },
+                {
+                  "name": "Sodium (as Disodium phosphate)",
+                  "amount": "128gmg",
+                  "dv": "6%"
+                },
+                {
+                  "name": "L-Citrulline",
+                  "amount": "3g"
+                },
+                {
+                  "name": "L-Carnitine L-Tartrate",
+                  "amount": "1g"
+                },
+                {
+                  "name": "Beetroot (powder)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "Trimethylglycine (TMG) (as betaine anhydrous)",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "N-Acetyl-L-Cysteine",
+                  "amount": "500mg"
+                },
+                {
+                  "name": "ONE MORE REP® ENERGY BLEND (Proprietary)",
+                  "amount": "454mg"
+                },
+                {
+                  "name": "Caffeine anhydrous",
+                  "amount": ""
+                },
+                {
+                  "name": "Theobromine",
+                  "amount": ""
+                },
+                {
+                  "name": "Phosphatidylcholine",
+                  "amount": ""
+                },
+                {
+                  "name": "Himalayan pink salt",
+                  "amount": ""
+                },
+                {
+                  "name": "Yohimbie (bark) extract (std. to 2% Yohimbine)",
+                  "amount": ""
+                }
+              ],
+              "ingredients": "Maltodextrin, natural and artificial flavors, citric acid, silica, malic acid, sucralose, and acesulfame K."
+            },
             "details": [
               {
                 "label": "Brand",
